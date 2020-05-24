@@ -1,0 +1,39 @@
+.components-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(94, 93, 93);
+}
+.components-container header h2 {
+    color: black;
+}
+.components-container header span {
+    font-weight: bold;
+    color: #0c344b;
+    font-size: 18px;
+}
+.components-container .merchandise a {
+    margin:20px;
+}
+.components-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.components-container form h2 {
+    color: #0c344b;
+}
+.components-container form button {
+    margin-top: 50px;
+}
+.components-container form a {
+    text-decoration: none;
+    color: #0c344b;
+    margin-top: 16px;
+}
+.components-container form a:hover {
+    opacity: 0.9;
+}

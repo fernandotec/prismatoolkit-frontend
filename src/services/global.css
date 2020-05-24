@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap%27');
+body {
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chelsea Market', sans-serif;
+}
+form {
+    width: 30%;
+    height: 50vh;
+    box-shadow: 0px 7px 20px 10px gray;
+    margin-top: 40px;
+    font-family: Roboto,sans-serif;
+}
+form button {
+    width: 70%;
+    height: 52px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    background-color: #1c75b0;
+    box-shadow: 0px 5px 10px 1px #1c75b0;
+    transition: 0.5s;
+}
+form button:hover {
+    transform: scale(1.10);
+    box-shadow: 0px 5px 20px 5px #1c75b0;
+    cursor: pointer;
+}
+form button:active {
+    transform: translateY(4px);
+    box-shadow: 0px 1px 20px 5px #1c75b0 ;
+}
+form input:hover{ 
+    animation: pulse 3s infinite;
+}
+form input:focus {
+    animation: none;
+}
+form input {
+    width: 70%;
+    height:40px;
+    margin-top: 18px;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0px 3px 10px 1px gray;
+    font-size: 16px;
+    color:#0c344b;
+}
+form input::placeholder{
+    opacity: 0.7;
+}
+@keyframes pulse {
+    0%{
+        transform: scale(1.0);
+        filter: brightness(85%);
+    }
+    50% {
+        transform: scale(1.10);
+    }
+    79% {
+        transform: scale(1.05);
+    }
+    99%{
+        transition: scale(1.0)
+    }
+}
