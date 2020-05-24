@@ -20,6 +20,7 @@ export default function Index(){
 
     useEffect( () => {
         loadUsers();
+        console.log(users);
     }, []);
 
     async function handleSearch(e){
