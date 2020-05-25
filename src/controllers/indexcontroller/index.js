@@ -15,7 +15,7 @@ export default function Index(){
 
     async function loadUsers(){
         const response = await api.get('/users/index');
-        setUsers(await api.get('/users/index'))
+        setUsers(response.data);
         console.log(users);
     }
 
