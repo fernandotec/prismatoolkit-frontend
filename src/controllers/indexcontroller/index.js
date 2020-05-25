@@ -10,7 +10,7 @@ import './style.css';
 export default function Index(){
 
     const[email,setEmail] = useState('');
-    const[users,setUsers] = useState(['']);
+    const[users,setUsers] = useState([]);
     //É necessário colocar as chaves para indicar que estamos trabalhando com um array
 
     async function loadUsers(){
